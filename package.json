@@ -1,0 +1,25 @@
+{
+  "name": "nuxt-login",
+  "type": "module",
+  "private": true,
+  "scripts": {
+    "build": "nuxt build",
+    "dev": "nuxt dev",
+    "generate": "nuxt generate",
+    "preview": "nuxt preview",
+    "postinstall": "nuxt prepare"
+  },
+  "dependencies": {
+    "@mdi/font": "^7.4.47",
+    "mdi": "^2.2.43",
+    "nuxt": "^4.5.2",
+    "sass": "^1.103.1",
+    "vue": "^3.5.41",
+    "vue-router": "^5.2.0"
+  },
+  "devDependencies": {
+    "@types/node": "^26.4.0",
+    "vuetify": "^4.0.1",
+    "vuetify-nuxt-module": "^1.0.0-rc.5"
+  }
+}
