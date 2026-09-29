@@ -1,4 +1,3 @@
-<!-- app/app.vue -->
 <template>
   <v-app>
     <NuxtLayout>
@@ -6,14 +5,15 @@
     </NuxtLayout>
   </v-app>
 </template>
+
 <script setup lang="ts">
-useHead({
- script: [
- {
- src: 'https://accounts.google.com/gsi/client',
- async: true,
- defer: true
- }
- ]
-})
+  useHead({
+    script:[
+      {
+        src : 'https://accounts.google.com/gsi/client',
+        async: true,
+        defer: true
+      }
+    ]
+  })
 </script>
