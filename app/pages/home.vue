@@ -40,7 +40,7 @@ onMounted(() => {
 
     <section class="welcome-band" aria-label="Workspace overview">
       <div class="welcome-copy">
-        <p class="band-kicker">NORTHSTAR WORKSPACE</p>
+        <p class="band-kicker">KOVA WORKSPACE</p>
         <h2>Make today<br />a little clearer.</h2>
         <p>Everything you need is one step away.</p>
       </div>
